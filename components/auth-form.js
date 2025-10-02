@@ -34,10 +34,10 @@ export default function AuthForm({ mode }) {
       </p>
       <p>
         {mode === "login" && (
-          <Link href="/?mode=singup">Create an account.</Link>
+          <Link href="/?mode=login">Create an account.</Link>
         )}
         {mode === "signup" && (
-          <Link href="/?mode=login">Login with existing account.</Link>
+          <Link href="/?mode=signup">Login with existing account.</Link>
         )}
       </p>
     </form>
